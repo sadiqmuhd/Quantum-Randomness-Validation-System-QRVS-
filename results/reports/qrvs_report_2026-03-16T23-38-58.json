@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-03-16T23:38:58",
+  "sources": {
+    "LCG": {
+      "name": "LCG",
+      "n_samples": 5000,
+      "chi_square_stat": 3.2640000000000002,
+      "chi_square_p": 1.0,
+      "chi_square_pass": true,
+      "ks_stat": 0.004078431372549041,
+      "ks_p": 0.9999960609629139,
+      "ks_pass": true,
+      "max_acf": 0.2444614980380548,
+      "n_significant_lags": 17,
+      "acf_pass": false,
+      "runs_p": 0.0008338634813611634,
+      "runs_pass": false,
+      "shannon_bits": 7.999528549800449,
+      "shannon_efficiency": 0.9999410687250562,
+      "min_entropy_bits": 7.965784284662087,
+      "min_entropy_eff": 0.9957230355827609,
+      "nist_iid_bits": 7.310562593515426,
+      "overall_pass": true,
+      "score": 70.0
+    }
+  }
+}

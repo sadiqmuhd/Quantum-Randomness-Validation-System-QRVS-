@@ -1,0 +1,49 @@
+QRVS Statistical Summary Report
+Generated: 2026-03-16T23:41:37
+============================================================
+
+Source: Pseudo RNG
+  Samples            : 5000
+  Chi² p-value       : 0.2762  (PASS)
+  KS   p-value       : 0.3575  (PASS)
+  Max |ACF|          : 0.035334  (FAIL)
+  Runs p-value       : 0.9550  (PASS)
+  Shannon entropy    : 7.9616 bits  (99.5%)
+  Min-entropy        : 7.1584 bits  (89.5%)
+  NIST IID estimate  : 6.6385 bits
+  Overall Score      : 84.8/100  (PASS)
+
+Source: Simulated QRNG
+  Samples            : 5000
+  Chi² p-value       : 0.0000  (FAIL)
+  KS   p-value       : 0.4695  (PASS)
+  Max |ACF|          : 0.028503  (FAIL)
+  Runs p-value       : 0.4937  (PASS)
+  Shannon entropy    : 6.9270 bits  (86.6%)
+  Min-entropy        : 6.1792 bits  (77.2%)
+  NIST IID estimate  : 5.7919 bits
+  Overall Score      : 64.6/100  (FAIL)
+
+Source: Biased RNG
+  Samples            : 5000
+  Chi² p-value       : 0.0000  (FAIL)
+  KS   p-value       : 0.0000  (FAIL)
+  Max |ACF|          : 0.031908  (FAIL)
+  Runs p-value       : 0.7760  (PASS)
+  Shannon entropy    : 6.7270 bits  (84.1%)
+  Min-entropy        : 1.9579 bits  (24.5%)
+  NIST IID estimate  : 1.8713 bits
+  Overall Score      : 48.6/100  (FAIL)
+
+Source: LCG
+  Samples            : 5000
+  Chi² p-value       : 1.0000  (PASS)
+  KS   p-value       : 1.0000  (PASS)
+  Max |ACF|          : 0.244461  (FAIL)
+  Runs p-value       : 0.0008  (FAIL)
+  Shannon entropy    : 7.9995 bits  (100.0%)
+  Min-entropy        : 7.9658 bits  (99.6%)
+  NIST IID estimate  : 7.3106 bits
+  Overall Score      : 70.0/100  (PASS)
+
+============================================================

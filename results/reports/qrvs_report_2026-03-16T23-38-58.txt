@@ -1,0 +1,16 @@
+QRVS Statistical Summary Report
+Generated: 2026-03-16T23:38:58
+============================================================
+
+Source: LCG
+  Samples            : 5000
+  Chi² p-value       : 1.0000  (PASS)
+  KS   p-value       : 1.0000  (PASS)
+  Max |ACF|          : 0.244461  (FAIL)
+  Runs p-value       : 0.0008  (FAIL)
+  Shannon entropy    : 7.9995 bits  (100.0%)
+  Min-entropy        : 7.9658 bits  (99.6%)
+  NIST IID estimate  : 7.3106 bits
+  Overall Score      : 70.0/100  (PASS)
+
+============================================================
