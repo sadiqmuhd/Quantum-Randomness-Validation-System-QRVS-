@@ -54,7 +54,7 @@ Entropy Sources → Preprocessing → Statistical Tests → Entropy Estimation �
 
 ---
 
-## ✨ Features
+##  Features
 
 | Feature | Details |
 |---|---|
@@ -66,7 +66,7 @@ Entropy Sources → Preprocessing → Statistical Tests → Entropy Estimation �
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 quantum-randomness-validator/
@@ -113,7 +113,7 @@ quantum-randomness-validator/
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ```bash
 # 1. Clone the repository
@@ -130,7 +130,7 @@ pip install -r requirements.txt
 
 ---
 
-## ⚡ Usage
+##  Usage
 
 ### Basic run (no internet required)
 ```bash
@@ -156,7 +156,7 @@ usage: main.py [-h] [--samples SAMPLES] [--anu] [--anu-total ANU_TOTAL] [--quiet
 
 ---
 
-## 🧩 Using Individual Modules
+##  Using Individual Modules
 
 Every module can be imported independently:
 
@@ -184,7 +184,7 @@ result = ks_test_two_sample(source_a, source_b, "PRNG", "QRNG")
 
 ---
 
-## 📐 Statistical Background
+##  Statistical Background
 
 ### Chi-Square Test
 Tests whether observed symbol frequencies deviate from a uniform distribution.
@@ -210,7 +210,7 @@ Computes the normalized ACF for lags 1–50. True randomness → ACF ≈ 0 every
 
 ---
 
-## 🔗 Connection to Photonic Hardware
+##  Connection to Photonic Hardware
 
 Real QRNGs are increasingly implemented on **photonic integrated circuits** — the same platform used in silicon photonic AI accelerators. In a photonic QRNG:
 
@@ -222,7 +222,7 @@ This bridges directly to hardware implementations such as those explored in sili
 
 ---
 
-## 📦 Dependencies
+##  Dependencies
 
 ```
 numpy    scipy    matplotlib    seaborn
@@ -236,7 +236,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📄 JSON Report Sample
+##  JSON Report Sample
 
 ```json
 {
@@ -252,17 +252,9 @@ pip install -r requirements.txt
     }
   }
 }
-```
-
 ---
 
-## 📜 License
-
-MIT License — see `LICENSE` for details.
-
----
-
-## 👤 Author
+##  Author
 
 **Abubakar Sadiq Muhammad**  
 Electrical & Electronics Engineering  
