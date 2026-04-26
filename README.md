@@ -1,10 +1,10 @@
-# 🎲 Quantum Randomness Validation System (QRVS)
+#  Quantum Randomness Validation System (QRVS)
 
 > A Python-based analytical framework for evaluating and benchmarking the randomness quality of multiple entropy sources — including pseudo-RNG, simulated quantum noise, and real quantum random numbers via the ANU QRNG API.
 
 ---
 
-## 📊 Results at a Glance
+##  Results at a Glance
 
 ### Entropy Source Distribution Comparison
 ![Distribution Comparison](results/figures/distribution_comparison.png)
@@ -28,7 +28,7 @@
 
 ---
 
-## 🔍 Overview
+##  Overview
 
 QRVS collects random sequences from several entropy sources and subjects them to a battery of statistical tests and entropy estimators. Results are compiled into a scored benchmark report with publication-quality visualizations.
 
@@ -218,7 +218,7 @@ Real QRNGs are increasingly implemented on **photonic integrated circuits** — 
 - The optical signal is processed using waveguides, beamsplitters, and photodetectors
 - This project's `simulated_quantum.py` models the same noise distributions (Gaussian vacuum noise, phase noise) found in real photonic QRNG chips
 
-This bridges directly to hardware implementations such as those explored in silicon photonics research at institutions like KAUST — where photonic QRNGs are a natural extension of integrated photonic AI accelerators.
+This bridges directly to hardware implementations such as those explored in silicon photonics research where photonic QRNGs are a natural extension of integrated photonic AI accelerators.
 
 ---
 
