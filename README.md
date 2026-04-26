@@ -253,7 +253,6 @@ pip install -r requirements.txt
   }
 }
 ---
-
 ##  Author
 
 **Abubakar Sadiq Muhammad**  
